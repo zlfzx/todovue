@@ -1,8 +1,8 @@
 <template>
   <div class="hello">
+    <h3>{{ msg }}</h3>
     <img src="../assets/logo.png">
-    <h1>{{ msg }}</h1>
-    <h3>{{ author }}</h3>
+    <h5>{{ author }}</h5>
   </div>
 </template>
 
