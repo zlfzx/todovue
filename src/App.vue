@@ -4,11 +4,13 @@
     <AddTodo v-on:add-todo="addTodo" />
     <Todos v-bind:todos="todos" v-on:del-todo="deleteTodo" />
     <router-view/>
+    <Footer />
   </div>
 </template>
 
 <script>
   import Header from './components/layout/Header';
+  import Footer from './components/layout/Footer'
   import AddTodo from './components/AddTodo';
   import Todos from './components/Todos';
 
@@ -16,6 +18,7 @@
     name: 'App',
     components: {
       Header,
+      Footer,
       AddTodo,
       Todos
     },

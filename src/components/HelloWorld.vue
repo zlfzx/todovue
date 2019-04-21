@@ -1,9 +1,7 @@
 <template>
   <div class="hello">
     <h3>{{ msg }}</h3>
-    <img src="../assets/logo.png">
-    <h5>{{ author }}</h5>
-  </div>
+    <img src="../assets/logo.png">  </div>
 </template>
 
 <script>
@@ -11,8 +9,7 @@ export default {
   name: 'HelloWorld',
   data () {
     return {
-      msg: 'Aplikasi TODO List dengan VueJS',
-      author: 'Muhammad Zulfi Izzulhaq'
+      msg: 'Aplikasi TODO List dengan VueJS'
     }
   }
 }
