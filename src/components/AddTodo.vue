@@ -43,4 +43,7 @@
 		background-color: #35495e;
 		color: #fff;
 	}
+	.btn:hover, .btn:focus{
+		color: #fff;
+	}
 </style>
