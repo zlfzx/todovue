@@ -3,10 +3,10 @@
 		<form @submit="addTodo" class="form-horizontal">
 			<div class="form-group">
 				<div class="col-sm-10">
-					<input class="form-control" v-model="title" type="text" name="title" placeholder="Add Todo...">
+					<input class="form-control" v-model="title" type="text" name="title" placeholder="Tambah Tugas...">
 				</div>
 				<div class="col-sm-2">
-					<input class="btn btn-block btn-success" type="submit" value="Tambah">
+					<input class="btn btn-block" type="submit" value="Tambah">
 				</div>
 			</div>
 		</form>
@@ -37,3 +37,10 @@
 		}
 	}
 </script>
+
+<style scoped>
+	.btn{
+		background-color: #35495e;
+		color: #fff;
+	}
+</style>

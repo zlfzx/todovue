@@ -42,12 +42,4 @@
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
 }
-.navbar{
-  border-radius: 0;
-  background-color: #41b883;
-  color: white;
-}
-.navbar a.navbar-brand{
-  color: white;
-}
 </style>

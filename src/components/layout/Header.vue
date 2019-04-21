@@ -1,13 +1,8 @@
 <template>
 	<nav class="navbar navbar-default">
       <div class="navbar-header">
-        <a href="#/" class="navbar-brand">Belajar VueJS</a>
+        <a href="#/" class="navbar-brand">TODO VueJS</a>
       </div>
-      <!-- <div class="container-fluid">
-      	<ul class="nav navbar-nav navbar-right">
-      		<li><a href="#">About</a></li>
-      	</ul>
-      </div> -->
     </nav>
 </template>
 
@@ -24,5 +19,13 @@
 	}
 	.navbar-default .navbar-nav > li > a {
     	color: #fff;
+	}
+	.navbar{
+	  border-radius: 0;
+	  background-color: #41b883;
+	  color: white;
+	}
+	.navbar a.navbar-brand{
+	  color: white;
 	}
 </style>

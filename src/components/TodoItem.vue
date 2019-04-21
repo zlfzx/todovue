@@ -2,7 +2,7 @@
 	<span v-bind:class="{'is-complete':todo.completed}">
 		<input type="checkbox" v-on:change="markComplete">
 		{{ todo.title }}
-		<span class="badge"@click="$emit('del-todo', todo.id)"><span class="glyphicon glyphicon-trash"></span>
+		<span class="badge"@click="$emit('del-todo', todo.id)">&times;</span>
 		</span>
 	</span>
 </template>
